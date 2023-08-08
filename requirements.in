@@ -6,19 +6,19 @@
 Scrapy==2.10.0
 
 # scrapinghub glue
-scrapinghub-entrypoint-scrapy>=0.14.0
+scrapinghub-entrypoint-scrapy
 
 # official python client
-scrapinghub>=2.4.0
+scrapinghub
 
 # scrapy plugins
 scrapy-splash
 scrapy-crawlera # legacy: the same as scrapy-zyte-smartproxy
-scrapy-zyte-smartproxy>=2.2.0
+scrapy-zyte-smartproxy
 scrapy-deltafetch
 scrapy-dotpersistence
 scrapy-magicfields
-scrapy-pagestorage>=0.4.0
+scrapy-pagestorage
 scrapy-querycleaner
 scrapy-splitvariants
 
@@ -33,12 +33,4 @@ boto3
 
 # address known vulnerabilities
 aiohttp>=3.7.4      # CVE-2021-21330
-awscli>=1.19.0      # fix pyyaml dependency
-cryptography>=3.3.2 # CVE-2020-36242
-Jinja2>=2.11.3      # CVE-2020-28493
-lxml>=4.6.3         # CVE-2021-28957
-pillow>=8.1.2       # GHSA-jgpv-4h4c-xhw3
-pyyaml>=5.4         # CVE-2020-14343
-requests>=2.20.0    # CVE-2018-18074
 Twisted[http2]>=19.2.1  # CVE-2019-12387
-urllib3>=1.26.4     # CVE-2021-28363
